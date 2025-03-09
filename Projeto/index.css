@@ -1,0 +1,957 @@
+/* estilo geral */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    line-height: 1.6;
+}
+
+body {
+    overflow-x: hidden; /* Remove a rolagem horizontal */
+    width: 100%; /* Garante que a largura seja fixa */
+    margin: 0; /* Remove margens que poderiam causar espaço extra */
+    padding: 0; /* Remove preenchimentos que poderiam interferir */
+}
+
+header {
+    background-color: #003366;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+header .logo h1 {
+    margin: 0;
+    font-size: 28px;
+}
+
+header .logo p {
+    margin: 0;
+    font-size: 16px;
+}
+
+header .logo h1 {
+    color: white; /* Define a cor do texto como branco */
+    font-size: 28px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #115396;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 10px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #003366;
+    color: #003366;
+    border-radius: 5px;
+}
+
+main {
+    padding: 40px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.hero {
+    position: relative;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.hero img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.hero img:hover {
+    transform: scale(1.05);
+}
+
+section.description,
+section.services,
+section.clients,
+section.blog,
+section.contact {
+    background-color: #ffffff;
+    padding: 30px;
+    margin: 40px 0;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    line-height: 1.8;
+}
+
+section h2 {
+    font-size: 24px;
+    color: #003366;
+    margin-bottom: 20px;
+}
+
+section.certifications {
+    text-align: center;
+    margin-top: 40px;
+}
+
+section.certifications img {
+    width: 120px;
+    margin: 0 20px;
+    transition: transform 0.3s ease;
+}
+
+section.certifications img:hover {
+    transform: scale(1.1);
+}
+
+aside {
+    background-color: #f0f0f0;
+    padding: 20px;
+    margin: 40px 0;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+aside div {
+    max-width: 300px;
+    margin: 20px;
+    line-height: 1.8;
+}
+
+button {
+    background-color: #00509e;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #003366;
+}
+
+/* Mensagem de boas-vindas */
+.welcome-message {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.welcome-message h2 {
+    font-size: 2em;
+    color: #003366;
+}
+
+.welcome-message p {
+    font-size: 1.2em;
+    color: #333;
+}
+
+/* Rodapé das páginas */
+body {
+    min-height: 100vh; 
+    display: flex;
+    flex-direction: column;
+    margin: 0; /* Remove qualquer margem padrão */
+}
+
+.content {
+    flex: 1; /* Faz com que o conteúdo ocupe o máximo de espaço disponível */
+}
+
+footer {
+    background-color: #003366;
+    color: white;
+    padding: 20px;
+    width: 100%; 
+    text-align: center;
+    position: relative;
+    margin-top: auto; /* Empurra o rodapé para o fim da página */
+}
+
+
+/* Estilos para as redes sociais e contatos */
+.social-contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.social-icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px; /* Adiciona espaço entre os ícones e os contatos */
+}
+
+footer a img {
+    margin-right: 15px; /* Espaço entre o ícone e o texto */
+}
+
+.contact-info {
+    display: flex;
+    align-items: center; /* Garante que o texto dos contatos fique alinhado na mesma linha que o ícone */
+    margin-left: 15px; /* Espaço entre o ícone e os textos dos contatos */
+}
+
+.contact-info p {
+    margin: 0 5px; /* Pequeno espaço entre os parágrafos */
+    display: inline-block; /* Coloca os parágrafos lado a lado */
+}
+/* Estilos específicos para a página da empresa */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #003366;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header .logo h1 {
+    margin: 0;
+}
+
+header .logo p {
+    margin: 0;
+    font-size: 14px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.hero {
+    text-align: center;
+}
+
+.hero img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+section {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+section h2 {
+    border-bottom: 2px solid #003366;
+    padding-bottom: 10px;
+}
+
+.project-gallery {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.project-gallery img {
+    max-width: calc(33% - 10px);
+    height: auto;
+    border-radius: 5px;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.contact form label {
+    font-weight: bold;
+}
+
+.contact form input, .contact form textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact form button {
+    padding: 10px;
+    background-color: #003366;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact form button:hover {
+    background-color: #003366;
+}
+
+/* Estilos do Slider */
+.slider {
+    position: relative;
+    max-width: 80%; /* Ajuste o tamanho do slider conforme necessário */
+    margin: auto;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+.slider .slide {
+    display: none; /* Esconder todas as slides inicialmente */
+    text-align: center;
+}
+
+.slider .slide.active {
+    display: block; /* Mostrar apenas a slide ativa */
+}
+
+.slider .slide img {
+    width: 100%;
+    height: auto;
+    max-height: 400px; /* Ajuste a altura máxima da imagem conforme necessário */
+}
+
+.slider .prev, .slider .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%; /* Posiciona as setas no meio verticalmente */
+    width: auto;
+    padding: 16px;
+    margin-top: -22px; /* Ajusta a posição vertical */
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    -webkit-user-select: none;
+    user-select: none;
+    z-index: 10; /* Garante que as setas fiquem acima das imagens */
+}
+
+.slider .prev {
+    left: 0; /* Posiciona a seta esquerda */
+    border-radius: 3px 0 0 3px;
+}
+
+.slider .next {
+    right: 0; /* Posiciona a seta direita */
+    border-radius: 3px 0 0 3px;
+}
+
+.slider .prev:hover, .slider .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Exposição de fotos na página Cliente */
+
+.clients-section {
+    text-align: center;
+    padding: 20px;
+}
+
+.clients-logos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.logo-container {
+    flex: 1;
+    max-width: 150px;
+}
+
+.logo-container img {
+    width: 100%;
+    transition: transform 0.3s;
+}
+
+.logo-container img:hover {
+    transform: scale(1.1);
+}
+
+.nav-arrow {
+    font-size: 24px;
+    cursor: pointer;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+.clients-logos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.logo-container {
+    flex: 1 1 calc(33.333% - 20px); /* Tamanho relativo para 3 por linha */
+    max-width: calc(33.333% - 20px); /* Tamanho máximo para 3 por linha */
+    box-sizing: border-box; /* Garantir que padding e border não aumentem a largura */
+}
+
+.logo-container img {
+    width: 100%;
+    transition: transform 0.3s;
+}
+
+.logo-container img:hover {
+    transform: scale(1.1);
+}
+.logo-container img {
+    width: 200px; 
+    height: auto;
+    transition: transform 0.3s;
+}
+/* Seção do Carrossel */
+.case-studies-section {
+    padding: 40px 20px;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+/* Container do Carrossel */
+.carousel {
+    position: relative;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+/* Itens do Carrossel */
+.carousel-container {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.carousel-item {
+    min-width: 100%;
+    box-sizing: border-box;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+/* Conteúdo dos Itens do Carrossel */
+.carousel-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px 10px 0 0;
+}
+
+.carousel-content {
+    padding: 20px;
+}
+
+.carousel-content h3 {
+    margin-top: 0;
+    color: #003366;
+}
+
+.carousel-content p {
+    color: #333;
+}
+
+.carousel-content a {
+    color: #003366;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.carousel-content a:hover {
+    text-decoration: underline;
+}
+
+/* Botões de Navegação do Carrossel */
+.carousel-button {
+    position: absolute;
+    top: 50%;
+    width: 50px;
+    height: 50px;
+    background-color: transparent;
+    color: #003366; 
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    transform: translateY(-50%);
+    z-index: 10;
+    font-size: 24px; 
+    transition: background-color 0.3s;
+}
+
+.carousel-button.prev {
+    left: 10px;
+}
+
+.carousel-button.next {
+    right: 10px;
+}
+
+.carousel-button:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+.carousel-item img {
+    max-width: 100%;
+    width: 300px; 
+    height: auto; 
+}
+/*Centralizr a imagem do carrosel*/
+.carousel-item {
+    min-width: 100%;
+    box-sizing: border-box;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.carousel-item img {
+    max-width: 80%;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+}
+
+.carousel-content {
+    margin-top: 20px;
+    text-align: left;
+}
+.slide {
+    display: none; /* Esconda todos os slides inicialmente */
+}
+
+.slide.active {
+    display: block; /* Mostre o slide ativo */
+}
+
+ /* Estilos para a seção Servicos*/
+ body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px #ccc(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #003366;
+    font-size: 25px;
+}
+
+h2 {
+    color: #003366;
+    font-size: 25px; /* Ajuste o valor conforme desejado */
+}
+
+
+
+/* Estilo para a seção de contato */
+.social-contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.social-icons {
+    display: flex;
+    align-items: center;
+}
+
+.social-icons img {
+    margin-right: 10px;
+}
+
+.contact-info {
+    margin-left: 10px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+
+.areas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.area h2 {
+    color: #fff;
+}
+
+.area {
+    background: #003366;
+    color: #fff;
+    padding: 20px;
+    margin: 10px;
+    flex: 1 1 30%;
+    box-sizing: border-box;
+}
+
+.area h2 {
+    text-align: center;
+}
+
+.area ul {
+    list-style: none;
+    padding: 0;
+}
+
+.area ul li {
+    background: #fff;
+    color: #003366;
+    margin: 5px 0;
+    padding: 10px;
+    border: 1px solid #fff;
+}
+
+.social-contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-icons {
+    margin-right: 10px;
+}
+
+.contact-info p {
+    margin: 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Estilização de Trabalhe Conosco */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0 0;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: white;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+#why-work-with-us {
+    margin-bottom: 40px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.card:hover {
+    box-shadow: 0 0 15px rgba(0, 123, 255, 0.8);
+}
+
+.card h2 {
+    color: #003366;
+    margin-bottom: 10px;
+}
+
+.card p {
+    color: #333;
+    line-height: 1.5;
+}
+
+
+
+/* Estilos para Cliente img */
+.client-img {
+    width: 80px; /* Defina o tamanho desejado */
+    height: auto; /* Mantém a proporção da imagem */
+}
+.clients-logos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.client-card {
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+}
+
+.client-img {
+    width: 120px; /* Controle centralizado do tamanho */
+    height: auto;
+    transition: transform 0.3s ease-in-out;
+}
+
+.client-img:hover {
+    transform: scale(1.1); /* Aumenta levemente a imagem ao passar o mouse */
+}
+
+.client-caption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: #003366;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    font-size: 14px;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.client-card:hover .client-caption {
+    opacity: 1; /* Exibe a legenda ao passar o mouse */
+}
+/* Estilos para Empresa Visao*/
+
+.mission-vision {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+  }
+  
+  .mission, .vision, .focus {
+    flex: 1;
+    margin: 10px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px #003366;
+    transition: transform 0.3s, background-color 0.3s, box-shadow 0.3s;
+  }
+  
+  .mission h3, .vision h3, .focus h3 {
+    font-size: 24px;
+    color: #003366;
+  }
+  
+  .mission p, .vision p, .focus p {
+    font-size: 16px;
+    color: #003366;
+  }
+  
+  .mission:hover, .vision:hover, .focus:hover {
+    transform: translateY(-10px);
+    background-color: #e0e0e0;
+    box-shadow: 0 0 20px #003366; 
+  }
+  
+  .areas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+  }
+  
+  .area {
+    flex: 1 1 30%;
+    margin: 10px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px #003366;
+    transition: transform 0.3s, background-color 0.3s, box-shadow 0.3s;
+  }
+  
+  .area h2 {
+    font-size: 22px;
+    color: #003366;
+  }
+  
+  .area ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .area li {
+    font-size: 16px;
+    color: #003366;
+    margin: 5px 0;
+  }
+  
+  .area:hover {
+    transform: translateY(-10px);
+    background-color: #e0e0e0;
+    box-shadow: 0 0 20px #003366; /* Adiciona uma borda iluminada ao passar o mouse */
+  }
+  
+
+   /* Centralizar os titulos */
+  h1, h2, h3, h4, h5, h6 {
+    text-align: center;
+}
+
+
+   /* Onde estamos localizados  */
+
+/* Estilo para o título */
+.location h3 {
+    font-family: 'Arial', sans-serif; /* Define a fonte */
+    font-size: 25px; /* Aumenta o tamanho do título */
+    color: #003366; /* Define a cor azul marinho */
+    text-align: center; /* onde o texto fica*/
+    margin: 0;
+    padding: 0;
+}
+
+/* Ajusta o mapa*/
+.map-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto; /* Centraliza o mapa */
+    width: 100%; /* Preenche toda a largura da tela */
+    max-width: 1200px; /* Define um limite máximo de largura */
+    height: 400px; /* Ajusta a altura para 400px */
+    border-radius: 8px; /* Bordas arredondadas */
+    overflow: hidden; /* Garante que nenhum conteúdo extra seja exibido */
+}
+
+
+
+    /* Estilo dos títulos na seção de clientes */
+.clients-section h2 {
+    font-size: 24px;
+    color: #003366;
+    text-align: center;
+    border-bottom: 2px solid #003366;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.clients-section {
+    text-align: center; /* Centraliza o texto */
+    background-color: #ffffff; /* Fundo branco */
+    padding: 70px; /* Espaço interno */
+    margin: 70px auto; /* Centraliza horizontalmente e adiciona espaço externo */
+    border-radius: 8px; /* Bordas arredondadas */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adiciona sombra para destaque */
+    max-width: 1500px; /* Limita a largura máxima da caixa */
+}
+
+
+/* Estilo dos títulos na seção de serviços */
+.services h1 {
+    font-size: 24px;
+    color: #003366;
+    text-align: center;
+    border-bottom: 2px solid #003366;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.areas h2 {
+    font-size: 20px;
+    color: #003366;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+/* Centralizar texto abaixo dos títulos na aba de serviços e adicionar fundo branco */
+.services {
+    text-align: center; /* Centraliza o texto */
+    background-color: #ffffff; /* Fundo branco */
+    padding: 70px; /* Espaço interno */
+    margin: 70px auto; /* Centraliza horizontalmente e adiciona espaço externo */
+    border-radius: 8px; /* Bordas arredondadas */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adiciona sombra para destaque */
+    max-width: 1500px; /* Limita a largura máxima da caixa */
+}
+
+
