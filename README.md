@@ -24,4 +24,4 @@ The website is a prototype developed for the engineering company **Ease Engenhar
 
 # Project Visualization
 To see the prototype in action, you can visit the following:
-[Click here to view]( https://gamaalice.github.io/easy-portifolio/)
+[Click here to view]
