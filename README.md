@@ -22,7 +22,7 @@ The website is a prototype developed for the engineering company **Ease Engenhar
      - Validates the existence of slides before attempting to access them;
      - Automatically adjusts the slide index to prevent errors caused by out-of-bound indexes (e.g., negative numbers or exceeding the slide count).
     
-# Technical Highlights
+### Technical Highlights
 - **DOM Manipulation**: Efficiently handles HTML elements (`getElementsByClassName`, `querySelector`) for dynamic control.
 - **Interactivity**: Uses events like `DOMContentLoaded` to ensure functionalities are triggered after the page has loaded.
 - **Flexibility and Expandability**: The code is modular, making it easy to add new slides or client entries.
