@@ -3,59 +3,230 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Trabalhe Conosco</title>
+    <meta name="description" content="Faça parte da equipe EASE ENGENHARIA">
+    <title>Trabalhe Conosco | EASE ENGENHARIA</title>
     <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
     <header>
-        <div class="logo">
-            <h1>EASE ENGENHARIA</h1>
-            <p>Comprometidos com excelência e inovação desde 1994.</p>
+        <div class="container header-container">
+            <div class="logo">
+                <h1>EASE ENGENHARIA</h1>
+                <p>Comprometidos com excelência e inovação desde 1994.</p>
+            </div>
+            <button class="mobile-menu-btn" aria-label="Abrir menu de navegação">
+                <i class="fas fa-bars"></i>
+            </button>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="Empresa.html">Empresa</a></li>
+                    <li><a href="Cliente.html">Clientes</a></li>
+                    <li><a href="Serviços.html">Serviços</a></li>
+                    <li><a href="Trabalhe_Conosco.html" class="active">Trabalhe Conosco</a></li>
+                </ul>
+            </nav>
         </div>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="Empresa.html">Empresa</a></li>
-                <li><a href="Cliente.html">Clientes</a></li>
-                <li><a href="Serviços.html">Serviços</a></li>
-                <li><a href="Trabalhe_Conosco.html">Trabalhe Conosco</a></li>
-            </ul>
-        </nav>
     </header>
+
     <main>
-        <section id="why-work-with-us">
-            <h2>Por que trabalhar conosco?</h2>
-            <p>Na EASE ENGENHARIA, valorizamos nossos colaboradores e oferecemos um ambiente de trabalho estimulante, com oportunidades de crescimento e desenvolvimento profissional. Junte-se a nós e faça parte de uma equipe comprometida com a excelência e a inovação.</p>
-        </section>
-        <section id="job-application">
-            <h2>Envie seu currículo</h2>
-    <div class="container">
-        <div class="card">
-            <h2>Estágio</h2>
-            <p>Viva experiências reais para ampliar seu aprendizado e colabore conosco. </p>
-            <p> Para enviar seu currículo, acesse: <a href="mailto:ease.engenharia@gmail.com">ease.engenharia@gmail.com</a>.</p>
-        </div>
-        <div class="card">
-            <h2>Profissional</h2>
-            <p> Compartilhe seus conhecimentos e aumente sua experiência com a gente.  </p>
-            <p> Para enviar seu currículo, acesse: <a href="mailto:ease.engenharia@gmail.com">ease.engenharia@gmail.com</a>.</p>
-        </div>
-    </div>
-        </section>
-    </main>
-    <footer>
-        <div class="social-contact">
-            <div class="social-icons">
-                <a href="https://www.linkedin.com/company/ease-engenharia-ltda/posts/?feedView=all" target="_blank" rel="noopener">
-                    <img src="https://th.bing.com/th/id/OIP.P_z8uTsVJ8tmPn2prJwOpQHaHa?w=156&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7" alt="LinkedIn" width="20">
-                </a>
-                <div class="contact-info">
-                    <p>Telefone: (24) 4009-1900</p>
+        <section class="hero">
+            <div class="container">
+                <div class="hero-content animate-fadeInUp">
+                    <h1>Trabalhe Conosco</h1>
+                    <p>Faça parte de uma equipe comprometida com a excelência</p>
                 </div>
             </div>
+        </section>
+
+        <section class="why-work-with-us">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="animate-fadeInUp">Por que trabalhar conosco?</h2>
+                    <p class="animate-fadeInUp delay-100">Na EASE ENGENHARIA, valorizamos nossos colaboradores e oferecemos um ambiente de trabalho estimulante, com oportunidades de crescimento e desenvolvimento profissional. Junte-se a nós e faça parte de uma equipe comprometida com a excelência e a inovação.</p>
+                </div>
+                
+                <div class="grid grid-3 mt-5">
+                    <div class="card animate-fadeInUp delay-200">
+                        <div class="card-body text-center">
+                            <i class="fas fa-chart-line fa-3x text-primary mb-4"></i>
+                            <h3 class="card-title">Crescimento Profissional</h3>
+                            <p class="card-text">Oferecemos oportunidades de desenvolvimento e crescimento dentro da empresa, com planos de carreira estruturados.</p>
+                        </div>
+                    </div>
+                    <div class="card animate-fadeInUp delay-300">
+                        <div class="card-body text-center">
+                            <i class="fas fa-users fa-3x text-primary mb-4"></i>
+                            <h3 class="card-title">Ambiente Colaborativo</h3>
+                            <p class="card-text">Valorizamos o trabalho em equipe e a troca de conhecimentos entre profissionais de diferentes áreas.</p>
+                        </div>
+                    </div>
+                    <div class="card animate-fadeInUp delay-400">
+                        <div class="card-body text-center">
+                            <i class="fas fa-medal fa-3x text-primary mb-4"></i>
+                            <h3 class="card-title">Reconhecimento</h3>
+                            <p class="card-text">Reconhecemos e valorizamos o talento e a dedicação de nossos colaboradores, com programas de incentivo e benefícios.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="job-application">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="animate-fadeInUp">Envie seu currículo</h2>
+                    <p class="animate-fadeInUp delay-100">Estamos sempre em busca de talentos para integrar nossa equipe</p>
+                </div>
+                
+                <div class="jobs-grid">
+                    <div class="job-card animate-fadeInUp delay-200">
+                        <i class="fas fa-graduation-cap"></i>
+                        <h3>Estágio</h3>
+                        <p>Viva experiências reais para ampliar seu aprendizado e colabore conosco em projetos desafiadores.</p>
+                        <p>Áreas: Engenharia Elétrica, Civil, Mecânica e Produção.</p>
+                        <a href="mailto:ease.engenharia@gmail.com" class="btn btn-primary mt-4">Enviar Currículo</a>
+                    </div>
+                    <div class="job-card animate-fadeInUp delay-300">
+                        <i class="fas fa-user-tie"></i>
+                        <h3>Profissional</h3>
+                        <p>Compartilhe seus conhecimentos e aumente sua experiência com a gente em um ambiente de crescimento contínuo.</p>
+                        <p>Vagas para engenheiros, técnicos e profissionais administrativos.</p>
+                        <a href="mailto:ease.engenharia@gmail.com" class="btn btn-primary mt-4">Enviar Currículo</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section class="benefits">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="animate-fadeInUp">Benefícios</h2>
+                    <p class="animate-fadeInUp delay-100">Conheça alguns dos benefícios oferecidos aos nossos colaboradores</p>
+                </div>
+                
+                <div class="grid grid-4 mt-5">
+                    <div class="benefit-item animate-fadeInUp delay-200">
+                        <i class="fas fa-heartbeat fa-2x text-secondary mb-3"></i>
+                        <h3>Plano de Saúde</h3>
+                    </div>
+                    <div class="benefit-item animate-fadeInUp delay-300">
+                        <i class="fas fa-tooth fa-2x text-secondary mb-3"></i>
+                        <h3>Plano Odontológico</h3>
+                    </div>
+                    <div class="benefit-item animate-fadeInUp delay-400">
+                        <i class="fas fa-utensils fa-2x text-secondary mb-3"></i>
+                        <h3>Vale Refeição</h3>
+                    </div>
+                    <div class="benefit-item animate-fadeInUp delay-500">
+                        <i class="fas fa-bus fa-2x text-secondary mb-3"></i>
+                        <h3>Vale Transporte</h3>
+                    </div>
+                    <div class="benefit-item animate-fadeInUp delay-200">
+                        <i class="fas fa-graduation-cap fa-2x text-secondary mb-3"></i>
+                        <h3>Bolsa de Estudos</h3>
+                    </div>
+                    <div class="benefit-item animate-fadeInUp delay-300">
+                        <i class="fas fa-gift fa-2x text-secondary mb-3"></i>
+                        <h3>Bonificação</h3>
+                    </div>
+                    <div class="benefit-item animate-fadeInUp delay-400">
+                        <i class="fas fa-home fa-2x text-secondary mb-3"></i>
+                        <h3>Home Office Parcial</h3>
+                    </div>
+                    <div class="benefit-item animate-fadeInUp delay-500">
+                        <i class="fas fa-birthday-cake fa-2x text-secondary mb-3"></i>
+                        <h3>Dia de Folga no Aniversário</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section class="contact" id="contact">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="animate-fadeInUp">Dúvidas?</h2>
+                    <p class="animate-fadeInUp delay-100">Entre em contato com nosso departamento de Recursos Humanos</p>
+                </div>
+                
+                <div class="contact-grid">
+                    <div class="contact-info animate-fadeInUp delay-200">
+                        <h3>Informações de Contato</h3>
+                        <p><i class="fas fa-phone"></i> (24) 4009-1900</p>
+                        <p><i class="fas fa-envelope"></i> rh@easeengenharia.com.br</p>
+                        <p><i class="fas fa-map-marker-alt"></i> Rua Exemplo, 123 - Centro</p>
+                        <div class="social-icons">
+                            <a href="https://www.linkedin.com/company/ease-engenharia-ltda/posts/?feedView=all" target="_blank" rel="noopener" title="LinkedIn da EASE ENGENHARIA">
+                                <i class="fab fa-linkedin"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="contact-form animate-fadeInUp delay-300">
+                        <h3>Envie sua Mensagem</h3>
+                        <form id="contactForm">
+                            <div class="form-group">
+                                <input type="text" id="name" name="name" required placeholder="Seu Nome">
+                            </div>
+                            <div class="form-group">
+                                <input type="email" id="email" name="email" required placeholder="Seu Email">
+                            </div>
+                            <div class="form-group">
+                                <input type="text" id="subject" name="subject" required placeholder="Assunto">
+                            </div>
+                            <div class="form-group">
+                                <textarea id="message" name="message" required placeholder="Sua Mensagem"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-secondary">Enviar Mensagem</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-info">
+                    <h3>EASE ENGENHARIA</h3>
+                    <p>Comprometidos com excelência e inovação desde 1994.</p>
+                </div>
+                <div class="footer-links">
+                    <h3>Links Rápidos</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="Empresa.html">Empresa</a></li>
+                        <li><a href="Cliente.html">Clientes</a></li>
+                        <li><a href="Serviços.html">Serviços</a></li>
+                        <li><a href="Trabalhe_Conosco.html">Trabalhe Conosco</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h3>Contato</h3>
+                    <p><i class="fas fa-phone"></i> (24) 4009-1900</p>
+                    <p><i class="fas fa-envelope"></i> ease.engenharia@gmail.com</p>
+                </div>
+                <div class="footer-social">
+                    <h3>Redes Sociais</h3>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/company/ease-engenharia-ltda/posts/?feedView=all" target="_blank" rel="noopener" title="LinkedIn da EASE ENGENHARIA">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 EASE ENGENHARIA LTDA. Todos os direitos reservados.</p>
+            </div>
         </div>
-        <p>&copy; 2025 EASE ENGENHARIA LTDA. Todos os direitos reservados.</p>
     </footer>
+
+    <a href="#" class="back-to-top" title="Voltar ao topo">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+
     <script src="index.js"></script>
 </body>
 </html>

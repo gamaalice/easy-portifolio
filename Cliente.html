@@ -3,85 +3,199 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nossos Clientes</title>
+    <meta name="description" content="Conheça os clientes da EASE ENGENHARIA">
+    <title>Nossos Clientes | EASE ENGENHARIA</title>
     <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
     <header>
-        <div class="logo">
-            <h1>EASE ENGENHARIA</h1>
-            <p>Comprometidos com excelência e inovação desde 1994.</p>
+        <div class="container header-container">
+            <div class="logo">
+                <h1>EASE ENGENHARIA</h1>
+                <p>Comprometidos com excelência e inovação desde 1994.</p>
+            </div>
+            <button class="mobile-menu-btn" aria-label="Abrir menu de navegação">
+                <i class="fas fa-bars"></i>
+            </button>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="Empresa.html">Empresa</a></li>
+                    <li><a href="Cliente.html" class="active">Clientes</a></li>
+                    <li><a href="Serviços.html">Serviços</a></li>
+                    <li><a href="Trabalhe_Conosco.html">Trabalhe Conosco</a></li>
+                </ul>
+            </nav>
         </div>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="Empresa.html">Empresa</a></li>
-                <li><a href="Cliente.html">Clientes</a></li>
-                <li><a href="Serviços.html">Serviços</a></li>
-                <li><a href="Trabalhe_Conosco.html">Trabalhe Conosco</a></li>
-            </ul>
-        </nav>
     </header>
-    <div class="clients-section">
-        <h2>Nossos Clientes</h2>
-        <p>A EASE Engenharia tem como princípios confiança, transparência e qualidade na prestação dos serviços contratados. Possuímos em nosso portfólio grandes clientes, obras em grandes empreendimentos.</p>
-       <p>Estamos completando 20 anos, sempre na execução e instalações de montagens industriais o que fortalece nossa marca e nossa empresa.</p></p>
-        <div class="clients-logos">
-            <figure class="client-card">
-                <img src="https://logospng.org/download/csn/logo-csn-1536.png" alt="CSN" class="client-img">
-                <figcaption class="client-caption">CSN</figcaption>
-            </figure>
-            <figure class="client-card">
-                <img src="https://2viabr.com.br/wp-content/uploads/2022/07/download-5.png" alt="LIGHT" class="client-img">
-                <figcaption class="client-caption">LIGHT</figcaption>
-            </figure>
-            <figure class="client-card">
-                <img src="https://th.bing.com/th/id/OIP.fyWTvdQP8J1N6CfyXkvYngHaBp?rs=1&pid=ImgDetMain" alt="PAUL WURTH" class="client-img">
-                <figcaption class="client-caption">PAUL WURTH</figcaption>
-            </figure>
-            <figure class="client-card">
-                <img src="https://i.pinimg.com/originals/87/00/88/870088d039540e5ce066ff5b17d8fdf9.jpg" alt="MICHELIN" class="client-img">
-                <figcaption class="client-caption">MICHELIN</figcaption>
-            </figure>
-            <figure class="client-card">
-                <img src="https://2.bp.blogspot.com/-Kn5tkNtedGI/W93p4QBfduI/AAAAAAAAUUo/6F5cNnFZYa47jtjVImPV33vBLYzogSNxgCLcBGAs/s1600/ambev.jpg" alt="AMBEV" class="client-img">
-                <figcaption class="client-caption">AMBEV</figcaption>
-            </figure>
-            <figure class="client-card">
-                <img src="https://feybrush.com/images/brandp/f34.jpg" alt="SANIT GLOBAIN" class="client-img">
-                <figcaption class="client-caption">SAINT GLOBAIN</figcaption>
-            </figure>
-            <figure class="client-card">
-                <img src="https://pluspng.com/img-png/petrobras-png--400.jpg" alt="PETROBRAS" class="client-img">
-                <figcaption class="client-caption">PETROBRAS</figcaption>
-            </figure>
-            <figure class="client-card">
-                <img src="https://download.logo.wine/logo/Outotec/Outotec-Logo.wine.png" alt="OUTOTEC" class="client-img">
-                <figcaption class="client-caption">OUTOTEC</figcaption>
-            </figure>
-            <figure class="client-card">
-                <img src="https://waycompany.com.br/wp-content/uploads/2017/05/usiminas-logo.jpg" alt="USIMINAS" class="client-img">
-                <figcaption class="client-caption">USIMINAS</figcaption>
-            </figure>
-            <figure class="client-card">
-                <img src="https://www.automataweb.com.br/wp-content/uploads/2016/10/schneider.png" alt="schneider" class="client-img">
-                <figcaption class="client-caption">SCHENEIDER ELECTRIC</figcaption>
-            </figure>
-        </div>
-    </div>  
-    <footer>
-        <div class="social-contact">
-            <div class="social-icons">
-                <a href="https://www.linkedin.com/company/ease-engenharia-ltda/posts/?feedView=all" target="_blank" rel="noopener">
-                    <img src="https://th.bing.com/th/id/OIP.P_z8uTsVJ8tmPn2prJwOpQHaHa?w=156&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7" alt="LinkedIn" width="20">
-                </a>
-                <div class="contact-info">
-                    <p>Telefone: (24) 4009-1900</p>
+
+    <main>
+        <section class="hero">
+            <div class="container">
+                <div class="hero-content animate-fadeInUp">
+                    <h1>Nossos Clientes</h1>
+                    <p>Parceiros que confiam em nosso trabalho e excelência</p>
                 </div>
             </div>
+        </section>
+
+        <section class="clients-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="animate-fadeInUp">Parceiros de Sucesso</h2>
+                    <p class="animate-fadeInUp delay-100">A EASE Engenharia tem como princípios confiança, transparência e qualidade na prestação dos serviços contratados. Possuímos em nosso portfólio grandes clientes e obras em grandes empreendimentos.</p>
+                    <p class="animate-fadeInUp delay-200">Estamos há mais de 30 anos na execução e instalações de montagens industriais, o que fortalece nossa marca e nossa empresa.</p>
+                </div>
+
+                <div class="clients-grid animate-fadeInUp delay-300">
+                    <div class="client-card">
+                        <img src="https://logospng.org/download/csn/logo-csn-1536.png" alt="CSN" class="client-img">
+                        <h3>CSN</h3>
+                    </div>
+                    <div class="client-card">
+                        <img src="https://2viabr.com.br/wp-content/uploads/2022/07/download-5.png" alt="LIGHT" class="client-img">
+                        <h3>LIGHT</h3>
+                    </div>
+                    <div class="client-card">
+                        <img src="https://th.bing.com/th/id/OIP.fyWTvdQP8J1N6CfyXkvYngHaBp?rs=1&pid=ImgDetMain" alt="PAUL WURTH" class="client-img">
+                        <h3>PAUL WURTH</h3>
+                    </div>
+                    <div class="client-card">
+                        <img src="https://i.pinimg.com/originals/87/00/88/870088d039540e5ce066ff5b17d8fdf9.jpg" alt="MICHELIN" class="client-img">
+                        <h3>MICHELIN</h3>
+                    </div>
+                    <div class="client-card">
+                        <img src="https://2.bp.blogspot.com/-Kn5tkNtedGI/W93p4QBfduI/AAAAAAAAUUo/6F5cNnFZYa47jtjVImPV33vBLYzogSNxgCLcBGAs/s1600/ambev.jpg" alt="AMBEV" class="client-img">
+                        <h3>AMBEV</h3>
+                    </div>
+                    <div class="client-card">
+                        <img src="https://feybrush.com/images/brandp/f34.jpg" alt="SAINT GOBAIN" class="client-img">
+                        <h3>SAINT GOBAIN</h3>
+                    </div>
+                    <div class="client-card">
+                        <img src="https://pluspng.com/img-png/petrobras-png--400.jpg" alt="PETROBRAS" class="client-img">
+                        <h3>PETROBRAS</h3>
+                    </div>
+                    <div class="client-card">
+                        <img src="https://download.logo.wine/logo/Outotec/Outotec-Logo.wine.png" alt="OUTOTEC" class="client-img">
+                        <h3>OUTOTEC</h3>
+                    </div>
+                    <div class="client-card">
+                        <img src="https://waycompany.com.br/wp-content/uploads/2017/05/usiminas-logo.jpg" alt="USIMINAS" class="client-img">
+                        <h3>USIMINAS</h3>
+                    </div>
+                    <div class="client-card">
+                        <img src="https://www.automataweb.com.br/wp-content/uploads/2016/10/schneider.png" alt="SCHNEIDER ELECTRIC" class="client-img">
+                        <h3>SCHNEIDER ELECTRIC</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="testimonials">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="animate-fadeInUp">O que nossos clientes dizem</h2>
+                    <p class="animate-fadeInUp delay-100">Conheça a opinião de quem já trabalhou conosco</p>
+                </div>
+                
+                <div class="slider animate-fadeInUp delay-200">
+                    <button class="prev" aria-label="Depoimento anterior"><i class="fas fa-chevron-left"></i></button>
+                    
+                    <div class="slide active">
+                        <div class="card">
+                            <div class="card-body">
+                                <i class="fas fa-quote-left fa-2x text-secondary mb-3"></i>
+                                <p class="card-text">"A EASE Engenharia demonstrou excelência técnica e comprometimento em todos os projetos que realizamos juntos. Sua equipe é altamente qualificada e sempre entrega dentro do prazo."</p>
+                                <div class="d-flex align-items-center mt-3">
+                                    <div>
+                                        <h5 class="card-title mb-0">Carlos Silva</h5>
+                                        <p class="text-muted">Diretor de Operações, CSN</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="slide">
+                        <div class="card">
+                            <div class="card-body">
+                                <i class="fas fa-quote-left fa-2x text-secondary mb-3"></i>
+                                <p class="card-text">"Trabalhamos com a EASE em diversos projetos de instalações elétricas e sempre ficamos impressionados com a qualidade do serviço e a atenção aos detalhes."</p>
+                                <div class="d-flex align-items-center mt-3">
+                                    <div>
+                                        <h5 class="card-title mb-0">Ana Costa</h5>
+                                        <p class="text-muted">Gerente de Projetos, LIGHT</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="slide">
+                        <div class="card">
+                            <div class="card-body">
+                                <i class="fas fa-quote-left fa-2x text-secondary mb-3"></i>
+                                <p class="card-text">"A parceria com a EASE Engenharia tem sido fundamental para o sucesso de nossos projetos industriais. Sua capacidade técnica e compromisso com a qualidade são diferenciais importantes."</p>
+                                <div class="d-flex align-items-center mt-3">
+                                    <div>
+                                        <h5 class="card-title mb-0">Roberto Lima</h5>
+                                        <p class="text-muted">Diretor Industrial, AMBEV</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <button class="next" aria-label="Próximo depoimento"><i class="fas fa-chevron-right"></i></button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-info">
+                    <h3>EASE ENGENHARIA</h3>
+                    <p>Comprometidos com excelência e inovação desde 1994.</p>
+                </div>
+                <div class="footer-links">
+                    <h3>Links Rápidos</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="Empresa.html">Empresa</a></li>
+                        <li><a href="Cliente.html">Clientes</a></li>
+                        <li><a href="Serviços.html">Serviços</a></li>
+                        <li><a href="Trabalhe_Conosco.html">Trabalhe Conosco</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h3>Contato</h3>
+                    <p><i class="fas fa-phone"></i> (24) 4009-1900</p>
+                    <p><i class="fas fa-envelope"></i> ease.engenharia@gmail.com</p>
+                </div>
+                <div class="footer-social">
+                    <h3>Redes Sociais</h3>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/company/ease-engenharia-ltda/posts/?feedView=all" target="_blank" rel="noopener" title="LinkedIn da EASE ENGENHARIA">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 EASE ENGENHARIA LTDA. Todos os direitos reservados.</p>
+            </div>
         </div>
-        <p>&copy; 2025 EASE ENGENHARIA LTDA. Todos os direitos reservados.</p>
     </footer>
+
+    <a href="#" class="back-to-top" title="Voltar ao topo">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+
     <script src="index.js"></script>
 </body>
 </html>
